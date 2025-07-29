@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+    Scanner x=new Scanner(System.in);
+    int n=x.nextInt();
+    System.out.println("Number of copies sold:"+n);
+    int a=x.nextInt();
+    System.out.println("Cost of each copy:"+a);
+    int b=x.nextInt();
+    System.out.println("Cost spent by agency on each newspaper:"+b);
+    float p=(float)((n*a)-((n*b)+100));
+    System.out.printf("The profit obtained is Rs.%.2f", p);
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    }
+}
