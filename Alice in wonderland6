@@ -1,0 +1,19 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+    Scanner x=new Scanner(System.in);
+    int a=x.nextInt();
+    System.out.println("Bird said:"+a);
+    int digit1=a/10;
+    int digit2=a%10;
+    int Sum_digit=digit1+digit2;
+    System.out.println("Alice must go in path-"+Sum_digit);
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    }
+}
