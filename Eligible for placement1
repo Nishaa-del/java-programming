@@ -1,0 +1,23 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+    Scanner x=new Scanner(System.in);
+    String a=x.nextLine();
+    System.out.println("Name of the Student:"+a);
+    int arr=x.nextInt();
+    int cgpa=x.nextInt();
+    if(arr==1 && cgpa>70){
+     System.out.println(a+" is Eligible for Placement");}
+    else if((arr==1 || arr==2)&& cgpa>75){
+     System.out.println(a+" is Eligible for Placement");}
+    else{
+      System.out.println(a+" is Not Eligible for Placement");}
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    }
+}
